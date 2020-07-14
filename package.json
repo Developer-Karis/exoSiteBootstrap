@@ -1,0 +1,24 @@
+{
+  "name": "exoSiteBootstrap",
+  "version": "1.0.0",
+  "description": "Créer un site en SCSS avec Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEVERECLICK-dev/exoSiteBootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SEVERECLICK-dev/exoSiteBootstrap/issues"
+  },
+  "homepage": "https://github.com/SEVERECLICK-dev/exoSiteBootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
+  }
+}
