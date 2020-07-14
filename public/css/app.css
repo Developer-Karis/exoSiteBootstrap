@@ -7800,18 +7800,5 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
-body {
-  margin: 0;
-  padding: 0; }
-
-.container-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100px;
-  background-color: red; }
-
-.navLogo {
-  width: 8%; }
 
 /*# sourceMappingURL=app.css.map */
