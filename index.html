@@ -37,16 +37,16 @@
         <section>
             <div class="container">
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="./src/images/twitter_bootstrap-wallpaper-1920x1200.jpg" alt="" class="mt-4" height="350"
-                        width="1110">
+                    <img src="./src/images/twitter_bootstrap-wallpaper-1920x1200.jpg" alt="" class="w-100 mt-4"
+                        height="350">
                 </div>
             </div>
         </section>
 
         <!-- Section 1 -->
         <section>
-            <div class="container">
-                <div class="d-flex justify-content-center align-items-center flex-wrap mt-5 bg-light">
+            <div class="container d-flex justify-content-center align-items-center flex-wrap mt-5 bg-light">
+                <div class="col-6">
                     <div class="card mb-3 border-0 mb-5" style="max-width: 540px;">
                         <div class="row no-gutters">
                             <div class="col-md-4">
@@ -60,6 +60,8 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-6">
                     <div class="card mb-3 border-0 mb-5" style="max-width: 540px;">
                         <div class="row no-gutters">
                             <div class="col-md-4">
@@ -73,6 +75,8 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-6">
                     <div class="card mb-3 border-0" style="max-width: 540px;">
                         <div class="row no-gutters">
                             <div class="col-md-4">
@@ -86,6 +90,8 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-6">
                     <div class="card mb-3 border-0" style="max-width: 540px;">
                         <div class="row no-gutters">
                             <div class="col-md-4">
@@ -105,24 +111,28 @@
     </header>
 
     <!-- Footer -->
+
     <footer>
-        <div class="card bg-info mt-5 text-center text-white d-flex justify-content-center align-items-center flex-row">
-            <div class="card-body p-5 d-flex align-items-center align-items-center flex-column">
-                <h2 class="card-title">Informations sur la Coding School</h2>
-                <p class="card-text w-50">ici on a toutes les infos sur
-                    la coding school qui est une super
-                    formation
-                    pour
-                    apprendre a développer des sites (et des applications) web !
-                </p>
+        <div class="row bg-info text-white m-0 d-flex justify-content-center align-items-center mt-5">
+            <div class=" col m-5 p-5 text-center">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas minima neque aliquam. Pariatur
+                    aliquam perspiciatis incidunt earum sit aperiam natus.</p>
             </div>
-            <div class="card-right d-flex justify-content-center align-items-center mr-5 p-5">
-                <label for="">Newsletter</label>
-                <input type="text" class="form-control">
-                <button class="btn btn-dark">Subscribe</button>
+            <div class="col m-5 p-5 ">
+                <form class="form-inline">
+                    <div class="ml-5">
+                        <span class="text-white">Newsletter</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputPassword2">
+                    </div>
+                    <button type="submit" class="btn btn-dark">Subscribe</button>
+                </form>
             </div>
         </div>
     </footer>
+
 
     <!-- Scripts Jquery & Bootstrap -->
     <script src="./node_modules/jquery/dist/jquery.js"></script>
